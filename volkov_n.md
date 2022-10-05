@@ -119,7 +119,7 @@ newObjFormat(resources)
 function newObjFormat(arr) {
 	let obj = {}
 	for (let item of arr) {
-	obj[item.id] = item.count
+		obj[item.id] = item.count
 	}
 	return obj
 }
